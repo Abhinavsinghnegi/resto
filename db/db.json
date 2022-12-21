@@ -1,7 +1,40 @@
 {
-    "restaurants":[
-        {"id":1,"name":"KFC1","address":"noida sector 50", "email":"abc@gmail.com1"},
-        {"id":2,"name":"KFC2","address":"noida sector 51", "email":"abc@gmail.com2"},
-        {"id":3,"name":"KFC3","address":"noida sector 52", "email":"abc@gmail.com3"}
-    ]
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "KFC1",
+      "address": "noida sector 50",
+      "email": "abc@gmail.com1"
+    },
+    {
+      "id": 2,
+      "name": "KFC2",
+      "address": "noida sector 51",
+      "email": "abc@gmail.com2"
+    },
+    {
+      "id": 3,
+      "name": "KFC3",
+      "address": "noida sector 52",
+      "email": "abc@gmail.com3"
+    },
+    {
+      "name": "qwert",
+      "address": "qwertyuio",
+      "email": "qwe@we.com",
+      "id": 4
+    },
+    {
+      "name": "harish",
+      "address": "rajasthan",
+      "email": "motabhai@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "werthjk",
+      "address": "vyui",
+      "email": "ertyj@gmail.com",
+      "id": 6
+    }
+  ]
 }
