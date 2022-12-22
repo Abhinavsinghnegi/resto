@@ -9,6 +9,8 @@ import { RestoService } from "../services/resto.service";
 })
 export class AddRestoComponent implements OnInit {
 
+  alert:boolean=false;
+
   constructor(private resto:RestoService) { }
 
   ngOnInit(): void {
@@ -22,8 +24,14 @@ export class AddRestoComponent implements OnInit {
 
   collectResto = () => {
     this.resto.saveResto(this.addResto.value).subscribe((result) => {
-      console.warn('result is here' + result);
+      this.alert=true;
+      this.addResto.reset({});
     })
+    
+  }
+
+  closeAlert = () => {
+    this.alert = false;
   }
 
 }
