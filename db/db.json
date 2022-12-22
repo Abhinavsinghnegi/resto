@@ -19,28 +19,16 @@
       "email": "abc@gmail.com3"
     },
     {
-      "name": "qwert",
-      "address": "qwertyuio",
-      "email": "qwe@we.com",
-      "id": 4
-    },
-    {
-      "name": "harish",
-      "address": "rajasthan",
-      "email": "motabhai@gmail.com",
-      "id": 5
-    },
-    {
-      "name": "werthjk",
-      "address": "vyui",
-      "email": "ertyj@gmail.com",
-      "id": 6
-    },
-    {
       "name": "buddy",
       "address": "mhow",
       "email": "buddies@gmail.com",
       "id": 7
+    },
+    {
+      "name": "asdfg",
+      "address": "wexcrvtby",
+      "email": "erftgy@gmail.com",
+      "id": 8
     }
   ]
 }

@@ -8,14 +8,20 @@ import { RestoService } from '../services/resto.service';
 })
 export class ListRestoComponent implements OnInit {
 
-  constructor(private resto : RestoService) { }
+  constructor(private resto: RestoService) { }
 
-  collection : any = {};
+  collection: any = [];
 
   ngOnInit(): void {
     this.resto.getList().subscribe((result) => {
       this.collection = result;
     });
+  }
+
+  deleteResto = (item: any) => {
+    this.collection.splice(item - 1, 1)
+    this.resto.deleteResto(item).subscribe((result) => {
+    })
   }
 
 }
