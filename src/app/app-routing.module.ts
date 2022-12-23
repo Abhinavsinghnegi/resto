@@ -11,7 +11,7 @@ const routes: Routes = [
   {path:'list',component:ListRestoComponent},
   {path:'login',component:LoginComponent},
   {path:'register',component:RegisterComponent},
-  {path:'update',component:UpdateRestoComponent}
+  {path:'update/:id',component:UpdateRestoComponent}
 ];
 
 @NgModule({
