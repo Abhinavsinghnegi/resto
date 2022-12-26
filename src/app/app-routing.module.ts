@@ -8,10 +8,10 @@ import { UpdateRestoComponent } from './update-resto/update-resto.component';
 
 const routes: Routes = [
   {path:'add', component:AddRestoComponent},
-  {path:'list',component:ListRestoComponent},
   {path:'login',component:LoginComponent},
   {path:'register',component:RegisterComponent},
-  {path:'update/:id',component:UpdateRestoComponent}
+  {path:'update/:id',component:UpdateRestoComponent},
+  {path:'',component:ListRestoComponent}
 ];
 
 @NgModule({
