@@ -30,5 +30,13 @@
       "email": "erftgy@gmail.com",
       "id": 8
     }
+  ],
+  "users": [
+    {
+      "name": "asdfghjk",
+      "password": "1234567890",
+      "email": "asdfghjk@gmail.com",
+      "id": 1
+    }
   ]
 }
